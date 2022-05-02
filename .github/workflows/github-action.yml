@@ -2,9 +2,9 @@ name: NPM Prioritize Scan
 
 on:
   push:
-    branches: [ release* master ]
+    branches: [ master ]
   pull_request:
-    branches: [ release* master ]
+    branches: [ master ]
 
 jobs:
   WhiteSource-Prioritize:
