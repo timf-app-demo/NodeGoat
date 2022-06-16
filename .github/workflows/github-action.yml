@@ -38,9 +38,9 @@ jobs:
       - name: WhiteSource Unified Agent Scan
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          WS_APIKEY: ${{secrets.APIKEY}}
-          WS_USERKEY: ${{secrets.USERKEY}}
-          WS_WSS_URL: https://app.whitesourcesoftware.com/agent
+          WS_APIKEY: f77338a45dcb46e9898e4090f24e9f7aa9fcebcadd91453ebd8ce9b46339d804
+          WS_USERKEY: 9b5ddaeaa0fe4a45941e403512085925505bb3f27761450c832ac89496f7ffd2
+          WS_WSS_URL: https://saas.whitesourcesoftware.com/agent
           WS_PRODUCTNAME: Mend-Tim
           WS_PROJECTNAME: ${{github.ref}}_Prioritize
           WS_ENABLEIMPACTANALYSIS: true
