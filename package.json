@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "async": "^2.0.0-rc.4",
-    "cross-env": "^7.0.2",
+    "cross-env": "7.0.3",
     "cypress": "^3.3.1",
     "grunt": "^1.0.1",
     "grunt-cli": "^1.2.0",
