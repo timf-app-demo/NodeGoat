@@ -38,11 +38,11 @@ jobs:
       - name: WhiteSource Unified Agent Scan
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          WS_APIKEY: ${{secrets.APIKEY}}
-          WS_USERKEY: ${{secrets.USERKEY}}
-          WS_WSS_URL: https://app.whitesourcesoftware.com/agent
-          WS_PRODUCTNAME: GH_${{github.event.repository.name}}
-          WS_PROJECTNAME: ${{github.ref}}_Prioritize
+          WS_APIKEY: 44be11e26ea649a5ade04d9b558716ead9378acfd9764b068c2cd0edf925e0d1
+          WS_USERKEY: fdc6c2fa5c8b4f43a63cdece5d101c929dec470f129b4393ba7a0413c50fa709
+          WS_WSS_URL: https://saas.whitesourcesoftware.com/agent
+          WS_PRODUCTNAME: Mend_Tim
+          WS_PROJECTNAME: NodeGoat_Prioritize
           WS_ENABLEIMPACTANALYSIS: true
           WS_RESOLVEALLDEPENDENCIES: false
           WS_NPM_RESOLVEDEPENDENCIES: true
