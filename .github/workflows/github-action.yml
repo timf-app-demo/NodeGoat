@@ -1,10 +1,12 @@
 name: NPM Prioritize Scan
 
-on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+#normally you use the on push/pullrequest option per branch, but 'on dispatch' is an easy way to kick off manually.
+on: workflow_dispatch
+#on:
+#  push:
+#    branches: [ master ]
+#  pull_request:
+#    branches: [ master ]
 
 jobs:
   WhiteSource-Prioritize:
