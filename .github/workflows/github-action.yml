@@ -56,7 +56,7 @@ jobs:
           WS_NPM_RESOLVELOCKFILE: false
           WS_FILESYSTEMSCAN: false
           WS_GENERATEPROJECTDETAILSJSON: true
-          WS_CHECKPOLICIES: TRUE
+          WS_CHECKPOLICIES: FALSE
         run: |
           curl -LJO https://unified-agent.s3.amazonaws.com/wss-unified-agent.jar
           echo Unified Agent downloaded successfully
